@@ -21,11 +21,11 @@ public class ParametroData {
 	private Map<String, Object> filtros;
 	private Map<String, Object> parametros;
 	private Long id;
-
-	private static final String ASC = "ASC";
-	private static final String ORDER = "Ordem";
+	
 	private static final String LIMITE = "limite";
 	private static final String PAGINA = "pagina";
+	private static final String ASC = "asc";
+	private static final String ORDER = "order";
 
 	public String getFiltro(String key) {
 		if (filtros != null && filtros.get(key) != null) {
